@@ -2,6 +2,12 @@
 
 Launch your favorite shell snippets from Vicinae. Use the catalog command for discovery, or jump straight into a saved script with a dedicated no-view command.
 
+## Demo
+
+![Animated preview of the Vicinae demo](./assets/demo.gif)
+
+> running bzmenu from the Control Catalogue
+
 ## Roadmap
 - [x] Run scripts by searching at vicinae
 - [x] Control Catalogue to view available scripts
