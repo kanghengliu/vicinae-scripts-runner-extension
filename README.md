@@ -2,6 +2,11 @@
 
 Launch your favorite shell snippets from Vicinae. Use the catalog command for discovery, or jump straight into a saved script with a dedicated no-view command.
 
+## Roadmap
+- [x] Run scripts by searching at vicinae
+- [x] Control Catalogue to view available scripts
+- [ ] Add standalone commands to control catalogue (Ex. Rename workspace is not a script thus can't be indexed in control catalogue)
+
 ## Configure Scripts
 
 All definitions live in `src/scripts.ts`:
