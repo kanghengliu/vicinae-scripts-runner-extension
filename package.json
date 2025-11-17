@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "control-scripts",
+  "title": "Script Shortcuts",
+  "description": "Quickly launch local shell commands from Vicinae.",
+  "categories": [],
+  "license": "MIT",
+  "author": "kang",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "controls",
+      "title": "Control Catalog",
+      "subtitle": "Browse configured scripts",
+      "description": "Pick a saved command and run it without leaving Vicinae.",
+      "mode": "view"
+    },
+    {
+      "name": "restart-quickshell",
+      "title": "Restart Quickshell",
+      "subtitle": "Restart desktop shell",
+      "description": "Runs the restart command configured in src/scripts.ts.",
+      "mode": "no-view"
+    },
+    {
+      "name": "audio-switcher",
+      "title": "Audio Switcher",
+      "subtitle": "Audio Switcher",
+      "description": "Runs the audio switcher command configured in src/scripts.ts.",
+      "mode": "no-view"
+    },
+    {
+      "name": "reload-quickshell",
+      "title": "Reload Quickshell",
+      "subtitle": "Reload desktop shell",
+      "description": "Runs the reload command configured in src/scripts.ts.",
+      "mode": "no-view"
+    },
+    {
+      "name": "screenshot",
+      "title": "Screenshot",
+      "subtitle": "Take a screenshot",
+      "description": "Runs the screenshot command configured in src/scripts.ts.",
+      "mode": "no-view"
+    },
+    {
+      "name": "bluetooth-switcher",
+      "title": "Bluetooth Switcher",
+      "subtitle": "Bluetooth Switcher",
+      "description": "Runs the bluetooth switcher command configured in src/scripts.ts.",
+      "mode": "no-view"
+    },
+    {
+      "name": "kde-clipboard",
+      "title": "Send Clipboard to Device",
+      "subtitle": "Send Clipboard to Device via KDE Connect",
+      "description": "Runs the kde-clipboard switcher command configured in src/scripts.ts.",
+      "mode": "no-view"
+    },
+    {
+      "name": "rename-workspace",
+      "title": "Rename Workspace",
+      "subtitle": "Rename current workspace",
+      "description": "Prompt for a new Hyprland workspace name and apply it via hyprctl.",
+      "mode": "view"
+    }
+  ],
+  "preferences": [],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.15.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
