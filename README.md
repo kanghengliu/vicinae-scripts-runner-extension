@@ -29,7 +29,7 @@ Add a new script by duplicating the sample entry and updating these fields.
 
 For every script you want at the root search level:
 
-1. Duplicate `src/sample-script.ts`, rename the copy to match the `commandName` (for example `src/bzmenu.ts`).
+1. Duplicate any `.ts` script at src/ folder, rename the copy to match the `commandName` (for example `src/bzmenu.ts`).
 2. Update `package.json` → `commands` with a new entry:
    - `name`: must match the file name and `commandName` in `src/scripts.ts`.
    - `mode`: use `"no-view"` for one-click execution.
